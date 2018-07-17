@@ -15,6 +15,17 @@
       <a-entity light="type: ambient"></a-entity>
       <a-entity id="camera" camera look-controls wasd-controls position="0 0 20"></a-entity>
 
+ <a-sphere src=" assets/glitterwallpaper.jpg" position = "0 0 0" radius = "6">  
+      <a-animation
+          attribute="rotation"
+          dur="10000"
+          fill="both"
+          from="0 0 0"
+          to="0 360 0"
+          easing="linear"
+          repeat="indefinite">
+        </a-animation>
+        
     </a-scene>
 
     <script src="./index.js"></script>
